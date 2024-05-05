@@ -30,6 +30,8 @@ class TampilPasien implements KontrakView
 			<td>' . $this->prosespasien->getTempat($i) . '</td>
 			<td>' . $this->prosespasien->getTl($i) . '</td>
 			<td>' . $this->prosespasien->getGender($i) . '</td>
+			<td>' . $this->prosespasien->getEmail($i) . '</td>
+			<td>' . $this->prosespasien->getTelp($i) . '</td>
 			<td>
 				<a href="edit.php?id='. $this->prosespasien->getId($i) .'" class="btn btn-warning">Edit</a>
 				<a href="index.php?id='. $this->prosespasien->getId($i) .'" class="btn btn-danger">Delete</a>
